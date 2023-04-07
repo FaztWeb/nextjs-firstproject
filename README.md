@@ -1,6 +1,6 @@
+# Nextjs First Project
+
+This is an example of a Nextjs project. A simple web app that shows a list of users and their details using app directory structure.
+
 # Screenshot
 ![](screenshot.png)
-
-# Resources
-* [Dynamic Routes](https://nextjs.org/docs/routing/dynamic-routes)
-* [getInitialProps](https://nextjs.org/docs/api-reference/data-fetching/getInitialProps)
