@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-const Navigation = () => (
+export const Navigation = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container">
-      <Link href="/">
-        <a className="navbar-brand">Home</a>
+      <Link href="/" className="navbar-brand">
+        Home
       </Link>
       <button
         className="navbar-toggler"
@@ -20,13 +20,13 @@ const Navigation = () => (
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link href="/about">
-              <a className="nav-link">About</a>
+            <Link href="/about" className="nav-link">
+              About
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/Services">
-              <a className="nav-link">Services</a>
+            <Link href="/services" className="nav-link">
+              Services
             </Link>
           </li>
         </ul>
@@ -35,4 +35,3 @@ const Navigation = () => (
   </nav>
 );
 
-export default Navigation;
